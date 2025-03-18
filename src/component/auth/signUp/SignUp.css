@@ -1,0 +1,38 @@
+.signin-title+p{
+margin: -10px;
+font-size: 16px;
+font-weight: 400;
+color: #666666;
+}
+.signin-title+p>span{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #333333;
+}
+.radio-button-useprofession{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 56px;
+}
+.radio-button-useprofession label{
+    color: #111111;
+    font-weight: 400;
+    font-size: 16px;
+}
+.signup-form-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.signup-option-social-media{
+    font-size: 18px;
+    color: #666666;
+    font-weight: 400;
+}
+.signup-option-social-media>span{
+    color: #333333;
+    text-decoration: underline;
+    cursor: pointer;
+}
