@@ -17,7 +17,6 @@
 }
 .footer-section-container>div{
     margin-top: 58px;
-    font-weight: bold;
     color: #fff;
 }
 .footer-info-section>p{
@@ -38,4 +37,6 @@
 }
 .footer-header-title{
     margin-bottom: 36px;
+    font-weight: bold;
+    font-size: 16px;
 }

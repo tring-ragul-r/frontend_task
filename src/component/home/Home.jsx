@@ -17,14 +17,11 @@ import {
   IoIosArrowRoundForward,
 } from "../../utils/Icons.jsx";
 import Footer from "../footer/Footer.jsx";
-import SignIn from "../auth/signin/SignIn.jsx";
-import SignUp from "../auth/signUp/SignUp.jsx";
 
 const Home = () => {
   return (
     <div>
-        <SignIn/>
-        <SignUp/>
+        
       <div className="homepage-container">
         <div className="header-container">
           <div className="headerlogo-container">
@@ -104,6 +101,7 @@ const Home = () => {
           </div>
         </section>
         <section className="projects-container">
+          <h1 className="project-title">Our Projects</h1>
           <div className="projects-section">
             <div className="projects-section-image-row1">
               <div className="projects-section-row1-image1"></div>

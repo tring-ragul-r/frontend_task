@@ -120,7 +120,7 @@ body {
     color: #333333;
     font-size: 12px;
     position: absolute;
-    padding: 20px;
+    padding: 20px 40px;
     bottom: 0;
     left: 0;
     border: none;
@@ -175,7 +175,7 @@ body {
     color: #333333;
     font-size: 12px;
     position: absolute;
-    padding: 20px;
+    padding: 20px 40px;
     bottom: 0%;
     left: 0;
     border: none;
@@ -197,7 +197,7 @@ body {
     margin-top: 100px;
 }
 
-.mission-section-title {
+.mission-section-title,.project-title {
     color: #BDBDBD;
     font-weight: 300;
     font-size: 43px;
@@ -248,11 +248,14 @@ body {
     height: 144px;
     margin-top: 45px;
 }
+.project-title{
+    margin-top: 100px;
+}
 .projects-section {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    margin: 100px 0px;
+    margin: 60px 0px 100px 0px;
 }
 
 .projects-section-image-row1 {
